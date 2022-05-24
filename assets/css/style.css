@@ -16,15 +16,46 @@ header {
 
 }
 
-img {
+header img {
     height: 40px;
     display: none;
 }
 
-.search_div {
+header .search_div {
     width: 90%;
     justify-content: center;
 }
+
+main {
+    background-color: var(--bg_theme);
+
+}
+
+main .else_div {
+    color: var(--light_theme);
+    height: calc((100vh - 120px) / 2);
+}
+
+.spotify_card {
+    background-color: var(--card_theme);
+    height: 100%;
+
+}
+
+.spotify_card .img_div {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+}
+
+.spotify_card .album_title {
+    color: var(--light_theme);
+}
+
+.spotify_card span {
+    color: var(--secondary_theme);
+}
+
 
 @media screen and (min-width: 576px) {
     header {
@@ -34,11 +65,11 @@ img {
 
     }
 
-    img {
+    header img {
         display: block;
     }
 
-    .search_div {
+    header .search_div {
         width: 50%;
         justify-content: end;
     }

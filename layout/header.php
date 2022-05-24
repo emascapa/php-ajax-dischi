@@ -1,5 +1,5 @@
 <header class="d-flex align-items-center">
-    <img src="<?php echo __DIR__ . '/../assets/img/spotify-logo.png' ?>" alt="logo" class="" />
+    <img src="./assets/img/spotify-logo.png" alt="logo" class="" />
 
     <div class="search_div d-flex align-items-center">
 
@@ -19,7 +19,3 @@
     </div>
 </header>
 
-<?php 
-var_dump(__DIR__ . '/../assets/css/style.css');
-
-?>
